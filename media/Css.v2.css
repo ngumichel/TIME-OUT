@@ -1,0 +1,75 @@
+#logo {
+    width: 120px;
+    align-self: center;
+}
+
+#id_photocv_main
+{
+	width: 100px;
+}
+.cl_photocv
+{
+	width: 50px;
+}
+.cl_icon /*icon information*/
+{
+	width: 3%;
+}
+.degradegris{
+    background-image: linear-gradient(to right, white 20% , rgba(0, 0, 0, 0.2));
+  }
+.progress-bar{
+  background-color: #3f3f3f;
+}
+
+.footflex {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.videop {
+  flex: 1;
+}
+
+.form-control::placeholder {
+    color: #CCD1D1;
+}
+.fondecran{
+  background-image: url(fondecran.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+article p {
+    text-align: justify;
+}
+
+.embedresize {
+max-width: 560px;
+margin: auto;
+}
+
+.embedresize div {
+position: relative;
+height: 0;
+padding-bottom: 56.25%;
+}
+
+.embedresize iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    margin-top: 20px;
+}
